@@ -67,3 +67,30 @@ h1 {
     color: darkcyan;
     font-size: 17px;
 }
+
+@media screen and (max-width: 500px){
+    form{
+        width: 90%;
+        height: auto;
+        padding: 50px 25px;
+        flex-wrap: wrap;
+    }
+    h1{
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+    .textBoxdiv input{
+        font-size: 18px;
+    }
+    .loginBtn{
+        height: 40px;
+        font-size: 14px;
+    }
+
+    .signup{
+        margin-top: 30px;
+    }
+    .signup a{
+        font-size: 14px;
+    }
+}
