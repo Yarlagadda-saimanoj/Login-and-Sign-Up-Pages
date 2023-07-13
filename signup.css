@@ -1,0 +1,69 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    }
+    body{
+        min-height: 100vh;
+        background: linear-gradient(to right top, #acb6e5,#D6A4A4,  #86fde8, #E4E5E6, #00416A);
+    }
+    form{
+            background: #BBD2C5;
+            width: 350px;
+            height: 580px;
+            padding: 75px 50px;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 10px;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 45px;
+            color: #232526;
+            font-size: 42px;
+        }
+        .supdiv{
+        border-bottom: 2px solid white;
+        position: relative;
+        margin: 35px 0;
+    }
+    .supdiv input{
+        background: none;
+        border: none;
+        outline: none;
+        width: none;
+        color: none;
+        height: none;
+        font-size: 20px;
+    }
+    .signup {
+        transition: 0.3s;
+        height: 45px;
+        width: 100%;
+        border: none;
+        outline: none;
+        background: linear-gradient(45deg, #9C27B0, #115a58);
+        color: white;
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+      }
+      
+      .signup:hover {
+        background: linear-gradient(45deg, #673AB7, #6d5a70);
+        font-size: 18px;
+      }
+      
+    .login{
+        color: black;
+        margin-top: 45px;
+        text-align: center;
+    }
+    .login a{
+        color: darkcyan;
+        font-size: 17px;
+    }
